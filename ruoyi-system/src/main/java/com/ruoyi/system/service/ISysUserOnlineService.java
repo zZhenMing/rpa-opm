@@ -1,7 +1,14 @@
+<<<<<<< HEAD:ruoyi-system/src/main/java/com/ruoyi/system/service/ISysUserOnlineService.java
 package com.ruoyi.system.service;
 
 import com.ruoyi.common.core.domain.model.LoginUser;
 import com.ruoyi.system.domain.SysUserOnline;
+=======
+package com.ruoyi.project.system.service;
+
+import com.ruoyi.framework.security.LoginUser;
+import com.ruoyi.project.monitor.domain.SysUserOnline;
+>>>>>>> e235d5aa (新增在线用户):ruoyi/src/main/java/com/ruoyi/project/system/service/ISysUserOnlineService.java
 
 /**
  * 在线用户 服务层

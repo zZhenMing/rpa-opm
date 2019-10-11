@@ -1,4 +1,8 @@
+<<<<<<< HEAD:ruoyi-system/src/main/java/com/ruoyi/system/domain/SysUserOnline.java
 package com.ruoyi.system.domain;
+=======
+package com.ruoyi.project.monitor.domain;
+>>>>>>> e235d5aa (新增在线用户):ruoyi/src/main/java/com/ruoyi/project/monitor/domain/SysUserOnline.java
 
 /**
  * 当前在线会话

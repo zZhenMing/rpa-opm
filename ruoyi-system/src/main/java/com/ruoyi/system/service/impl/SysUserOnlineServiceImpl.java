@@ -1,3 +1,4 @@
+<<<<<<< HEAD:ruoyi-system/src/main/java/com/ruoyi/system/service/impl/SysUserOnlineServiceImpl.java
 package com.ruoyi.system.service.impl;
 
 import org.springframework.stereotype.Service;
@@ -5,6 +6,15 @@ import com.ruoyi.common.core.domain.model.LoginUser;
 import com.ruoyi.common.utils.StringUtils;
 import com.ruoyi.system.domain.SysUserOnline;
 import com.ruoyi.system.service.ISysUserOnlineService;
+=======
+package com.ruoyi.project.system.service.impl;
+
+import org.springframework.stereotype.Service;
+import com.ruoyi.common.utils.StringUtils;
+import com.ruoyi.framework.security.LoginUser;
+import com.ruoyi.project.monitor.domain.SysUserOnline;
+import com.ruoyi.project.system.service.ISysUserOnlineService;
+>>>>>>> e235d5aa (新增在线用户):ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserOnlineServiceImpl.java
 
 /**
  * 在线用户 服务层处理
@@ -72,10 +82,16 @@ public class SysUserOnlineServiceImpl implements ISysUserOnlineService
      * @param user 用户信息
      * @return 在线用户
      */
+<<<<<<< HEAD:ruoyi-system/src/main/java/com/ruoyi/system/service/impl/SysUserOnlineServiceImpl.java
     @Override
     public SysUserOnline loginUserToUserOnline(LoginUser user)
     {
         if (StringUtils.isNull(user) || StringUtils.isNull(user.getUser()))
+=======
+    public SysUserOnline loginUserToUserOnline(LoginUser user)
+    {
+        if (StringUtils.isNull(user) && StringUtils.isNull(user.getUser()))
+>>>>>>> e235d5aa (新增在线用户):ruoyi/src/main/java/com/ruoyi/project/system/service/impl/SysUserOnlineServiceImpl.java
         {
             return null;
         }
