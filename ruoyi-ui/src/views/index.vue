@@ -1,6 +1,6 @@
 <template>
   <div style="text-align: center;">
-    <span style="font-size: 300px; vertical-align: middle;color: purple;">潘总牛逼</span>
+    <span style="font-size: 300px; vertical-align: middle;color: purple;">潘总牛逼1</span>
   </div>
 </template>
 
