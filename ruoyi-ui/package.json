@@ -1,7 +1,7 @@
 {
   "name": "ruoyi",
   "version": "3.8.5",
-  "description": "富璟RPA运营管理平台",
+  "description": "富璟(RPA)运营管理平台",
   "author": "富璟",
   "license": "MIT",
   "scripts": {
